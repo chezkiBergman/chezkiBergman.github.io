@@ -1,5 +1,8 @@
 {
   "proxy": "https://w8.logi-way.com/",
+  
+    "homepage": "https://chezkibergman.github.io/",
+  
   "name": "pogo-project",
   "version": "0.1.0",
   "private": true,
