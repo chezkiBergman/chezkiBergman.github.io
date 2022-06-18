@@ -1,0 +1,208 @@
+.sendSmsHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0px 14px;
+    height: 112px;
+    background: #F6F4FF;
+    border-radius: 2px;
+}
+
+.phone_head_div {
+    margin: 0 auto;
+
+}
+
+.marg_popUp_mobile {
+    width: 90%;
+}
+
+.phonePopUp {
+    width: 100%;
+    padding: 20px;
+}
+
+.head_p {
+
+    font-family: 'Heebo';
+    /* font-family: 'Almoni Neue DL 4.0 AAA'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+
+    /* Black */
+
+    color: #000000;
+
+}
+
+.marg_popUp_mobile {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.phoneNumHead {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 79.48%;
+    /* identical to box height, or 34px */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    letter-spacing: 0.02em;
+
+    /* Purple */
+
+    color: #583DFF;
+
+}
+
+.receiveCode {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    margin-top: 10px;
+    width: 203px;
+    height: 21px;
+    justify-content: center;
+
+}
+
+.sendAgain {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: initial;
+    white-space: nowrap;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    text-decoration-line: underline;
+
+    /* Black */
+
+    color: #000000;
+
+}
+
+.continue {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 270px;
+    gap: 10px;
+
+    width: 90%;
+    margin: 0 auto;
+    height: 62px;
+
+    background: #583DFF;
+    border-radius: 4px;
+
+}
+
+.continueBtnText {
+    height: 54px;
+    width: 46px;
+    width: 90%;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 25px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* .muirtl-1rwt2y5-MuiButtonBase-root-MuiButton-root{
+
+} */
+
+@media only screen and (max-width: 500px) {
+    .phonePopUp {
+        height: 439px;
+        min-width: none !important;
+        padding: 8px;
+    }
+
+    .phoneHeader2 {
+        width: 271px;
+        height: 34px;
+
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 23px;
+        line-height: 34px;
+        /* identical to box height, or 148% */
+
+        text-align: center;
+        letter-spacing: -1.24px;
+
+        color: #0D152E;
+    }
+
+    .phone_head_div {
+        display: flex;
+        justify-content: center;
+        height: 60px;
+    }
+
+
+    .phone_head_p_mobile {
+        width: 138px;
+        height: 22px;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 22px;
+        display: flex;
+        align-items: flex-end;
+        text-align: right;
+        color: #000000;
+
+
+
+    }
+
+    .receiveCode_mobile {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .sendAgain_mobile {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .marg_popUp_mobile {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .sendSmsHeader_mobile {
+        width: 100%;
+    }
+
+    .continue {
+        width: 100%;
+    }
+}

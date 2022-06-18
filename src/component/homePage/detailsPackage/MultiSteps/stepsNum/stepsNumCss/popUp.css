@@ -1,0 +1,227 @@
+.MuiTextField-root {
+
+    overflow-y: visible;
+
+}
+
+.h2HeaderMoreDetails {
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 44px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: -2px;
+
+    color: #0D152E;
+}
+
+.divPopUp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-bottom: 35px; */
+}
+
+.muirtl-5wgg3p-MuiFormControl-root-MuiTextField-root {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 0;
+    padding: 0;
+    margin: 12px;
+    border: 0;
+    vertical-align: top;
+    width: 213px;
+}
+
+.margin {
+    /* margin: 20px; */
+    /* height: 81px; */
+    width: 100%;
+    /* margin-bottom: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 545px;
+}
+
+.MuiDialog-root {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 44px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: -2px;
+
+    color: #0D152E;
+}
+
+.moreDetailsHead {
+   
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 44px;
+    /* identical to box height */
+   height: 81px;
+    text-align: right;
+    letter-spacing: -2px;
+
+    color: #0D152E;
+}
+
+.widthActions {
+   
+    width: 100%;
+    max-width: 467px;
+  
+  
+
+} 
+
+.saveMoreDetails {
+    width: 68%;
+    height: 56px;
+    background: #583DFF;
+    border-radius: 4px;
+    /* margin: 0px 14px 0px 0px !important; */
+}
+
+.cancelMoreDetails {
+    width: 26%;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid #583DFF;
+    /* margin-right: -4px; */
+
+
+
+}
+
+
+.popUp_flex {
+    /* margin-bottom: 20px; */
+    width: 100%;
+
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 545px;
+}
+
+
+.costumerName_width {
+    /* margin-bottom: 20px; */
+    width: 100%;
+    height: 81px;
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 545px;
+}
+
+.mobile_width_popUp{
+    width: 100%;
+    height: 461px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-content: flex-end; */
+    align-items: center;
+
+}
+
+
+.Arrow_cancel {
+    width: 29px;
+    left: 0;
+    top: 31px;
+    position: absolute;
+    box-sizing: border-box;
+    right: 12px;
+    cursor: pointer;
+}
+
+[dir ='rtl'] .Arrow_cancel{
+  
+    /* left: 24px; */
+    right: 0;
+    transform: scaleX(-1);
+
+}
+
+.cancel_mobile {
+    /* min-width: 375px; */
+    height: 80px;
+    position: relative;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+/* @media only screen and (max-width: 630px) {
+.saveMoreDetails{
+    margin: 0 !important;
+}
+} */
+@media only screen and (max-width: 500px) {
+    .divPopUp {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        /* gap: 19px; */
+    
+        /* min-width: 336px; */
+        height: 600px;
+       
+        justify-content: center;
+        align-content: center;
+    }
+
+    .mobile_flex {
+        display: flex !important;
+        flex-direction: column !important;
+        height: auto;
+
+    }
+
+    .mobile_width_popUp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        position: relative;
+        /* min-width: 350px; */
+        width: 90%;
+        height: 771px;
+        background: #FFFFFF;
+    }
+
+    .h2HeaderMoreDetails {
+        width: 146px;
+        height: 34px;
+        font-size: 26px;
+        line-height: 34px;
+      
+
+        text-align: center;
+        letter-spacing: -1.24px;
+
+        color: #0D152E;
+    }
+    .widthActions{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+}

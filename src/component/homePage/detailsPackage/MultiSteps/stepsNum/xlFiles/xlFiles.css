@@ -1,0 +1,282 @@
+.upload_file {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 8px;
+    margin-bottom: 45px;
+    width: 100%;
+    height: 93px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btnInput {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 15px;
+    gap: 10px;
+    width: 100%;
+    height: 25px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: initial;
+    text-align: right;
+
+    color: #583DFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    height: 62px;
+
+    background: #F2F5FF;
+    /* Purple */
+
+    border: 1px dashed #583DFF;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+}
+[dir='rtl'] .h2HeaderMoreDetails{
+    text-align: end;
+}
+.labelInputFile {
+    width: 100%;
+    height: 23px;
+    letter-spacing: initial;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    direction: rtl;
+    color: #81838C;
+
+}
+
+[dir='rtl'] .labelInputFile {
+    text-align: end
+}
+
+/* .margin_upload{
+    margin-bottom: 45px;
+} */
+
+.video_upload_file {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 12px;
+    margin-bottom: 45px;
+
+    width: 100%;
+    height: 302px;
+
+
+    /* Inside auto layout */
+
+}
+
+
+.frame_width {
+    width: 100%;
+    height: 100%;
+}
+
+.divH5_file_video {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+
+    width: 220px;
+    height: 35px;
+
+
+
+}
+
+.h5 {
+    width: 183px;
+    height: 35px;
+    white-space: nowrap;
+    margin: 10px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: right;
+    letter-spacing: -2px;
+
+    /* Black */
+
+    color: #000000;
+
+}
+
+.box_video {
+    width: 100%;
+    height: 100%;
+    border-radius: 4;
+
+}
+
+
+[dir='rtl'] .divH5_file_video{
+    gap: 72px;
+}
+
+
+.actionsBtn_file_PopUp {
+    margin-top: 45px;
+    margin-top: 45px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.openBtn {
+    display: flex;
+    gap: 10px;
+    height: 62px;
+    width: 62%;
+    background: #583DFF;
+
+    border-radius: 4px;
+}
+
+
+.cancelBtn {
+    width: 150px;
+    display: flex;
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 270px; */
+    gap: 10px;
+
+    width: 36%;
+    height: 62px;
+
+    background: #FFFFFF;
+    border: 1px solid #583DFF;
+    border-radius: 4px;
+
+}
+
+.btn_cancel_info {
+    width: 40px;
+    height: 25px;
+    margin: auto !important;
+    font-family: 'Heebo' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 17px !important;
+    line-height: 25px !important;
+    /* identical to box height */
+
+    text-align: center !important;
+
+    color: #583DFF !important;
+}
+
+
+
+.fileSelected {
+    display: flex;
+    padding: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 15px;
+    gap: 10px;
+    margin-top: 30px;
+    background: #F8F8F8;
+    border-radius: 4px;
+    margin-bottom: 45px;
+    width: 100%;
+    height: 62px;
+}
+
+.css-fxmzho-MuiModal-root-MuiDialog-root {
+    overflow: auto !important;
+}
+
+/* .css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    color:honeydew !important;
+} */
+
+.text_fileXl {
+    letter-spacing: normal;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: right;
+
+    color: #000000;
+}
+
+.margin_upload {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+.mobile_xl_width_popUp {
+    position: relative;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .margin_upload {
+        width: 100%;
+        position: absolute;
+        top: -200px;
+
+    }
+
+
+    .mobile_xl_width_popUp {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .video_upload_file {
+        align-items: flex-start;
+    }
+
+    .divH5_file_video {
+        flex-direction: row-reverse;
+    }
+    /* .actionsBtn_file_PopUp{
+        width: 100%;
+    } */
+}

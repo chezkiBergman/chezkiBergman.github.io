@@ -1,0 +1,275 @@
+.flex {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.headBold {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    font-weight: 900;
+    font-family: 'Heebo', sans-serif;
+    font-size: 61px;
+    line-height: 123.4%;
+    /* or 75px */
+
+    text-align: right;
+    letter-spacing: -2px;
+
+    color: #0D152E;
+
+}
+
+
+.span_header_logo {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 90px;
+    line-height: 123.4%;
+    /* or 111px */
+
+    text-align: right;
+    letter-spacing: -2px;
+    padding-inline-start: 4px;
+    color: #0D152E;
+
+}
+
+.flex_numAndString {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    /* flex-wrap: wrap; */
+    white-space: nowrap;
+}
+
+.h1Head {
+    /* position: relative; */
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 123.4%;
+    /* or 75px */
+
+    text-align: right;
+    letter-spacing: -2px;
+
+    color: #0D152E;
+
+
+    text-align: end;
+    margin: 0px;
+}
+
+/* .h1Head::before{
+content: '567';
+width: 100px;
+position: absolute;
+} */
+
+.divHead {
+    margin-top: 50px;
+    margin-bottom: 13px;
+}
+
+.logoPogo {
+    margin-top: 20px;
+    display: grid;
+    justify-content: end;
+    justify-items: center;
+
+}
+
+
+.dirHeader {
+    text-align: end;
+    margin: 0;
+    font-size: 20px;
+
+}
+
+.dirHeader1 {
+    text-align: end;
+    margin: 0;
+    font-size: 20px;
+
+    /* white-space: nowrap; */
+    /* margin-top:40px */
+}
+
+
+
+[dir="ltr"] .dirHeader {
+    text-align: right;
+    direction: rtl;
+    margin: 0;
+}
+
+.linkHomePage {
+    position: absolute;
+    top: -16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    /* font-weight: bold; */
+    left: -60px;
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: right;
+    color: #583DFF;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+
+    /* .logoPosition {
+
+        right: 2rem !important;
+
+
+    } */
+
+    [dir='rtl'] .logoPosition {
+
+        right: auto;
+
+    }
+
+
+}
+
+/* @media only screen and (max-width: 650px) {
+    .dirHeader {
+        font-size: 20px;
+    }
+} */
+
+@media only screen and (max-width: 800px) {
+
+    .span_header_logo {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 55.8713px !important;
+        line-height: 123.4%;
+        /* or 69px */
+
+        text-align: right;
+        letter-spacing: -1.24159px;
+
+        color: #0D152E;
+    }
+
+    .logoPogo {
+        justify-items: end;
+    }
+
+    .logo_position {
+        width: 183.39px;
+        height: 56px;
+    }
+
+    .linkHomePage {
+        left: -125px;
+        font-size: 10px;
+    }
+
+    [dir='rtl'] .linkHomePage {
+        left: 40px;
+    }
+
+    .headBold {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 37.8683px !important;
+        line-height: 85.4%;
+        /* or 47px */
+
+        text-align: right;
+        letter-spacing: -1.24159px;
+
+        color: #0D152E;
+    }
+
+    .h1Head {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34.8683px !important;
+        line-height: 123.4%;
+        /* or 47px */
+
+        text-align: right;
+        letter-spacing: -1.24159px;
+
+        color: #0D152E;
+    }
+
+    .dirHeader {
+        width: 100%;
+        height: 60px;
+
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+
+        /* text-align: right; */
+        letter-spacing: -0.409723px;
+        color: rgba(13, 21, 46, 0.56);
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position: relative;
+        padding: 0px;
+        gap: 24px;
+        height: 100%;
+
+    }
+
+    .divHead {
+        margin-top: 0;
+        margin-bottom: 0px;
+    }
+
+    .logoPosition {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 0px;
+        gap: 12px;
+        
+        height: 183px;
+       
+        width: 100%;
+    }
+
+    [dir='rtl'] .logoPosition {
+        right: auto !important;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    .h1Head {
+        font-size: 40px;
+    }
+
+    .span_header_logo {
+        font-size: 70px;
+    }
+
+    .headBold {
+        font-size: 45px;
+    }
+}

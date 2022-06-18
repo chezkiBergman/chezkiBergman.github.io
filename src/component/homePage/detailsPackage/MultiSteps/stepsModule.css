@@ -1,0 +1,425 @@
+.MuiBox-root-css-2royc9 {
+    margin-top: 250px;
+}
+
+.css-8atqhb {
+    width: 100%;
+    /* display: flex; */
+    direction: rtl;
+    /* flex-direction: column; */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 566px
+}
+
+[dir='rtl'] .css-8atqhb {
+    direction: ltr;
+
+}
+
+.stepper {
+    display: flex;
+    align-items: center;
+}
+.StepperDisplay{
+    max-width: 545px;
+}
+
+
+@media only screen and (min-width: 800px) {
+
+.MuiBox-root .css-1174ww2{
+    width: 76%;
+}
+}
+
+.MuiStepper {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    align-items: center;
+    padding: 0px;
+    /* gap: 12px; */
+    /* margin-inline-end: 242px; */
+    /* width: 100%; */
+    height: 26px;
+    padding: 1rem
+}
+
+
+.css-1bw0nnu-MuiStep-root {
+    padding: 0 !important;
+}
+
+.flex_stepper {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.nextAndBackBtn {
+    display: grid;
+    /* justify-items: center; */
+    justify-items: center;
+    margin: auto;
+    width: 744px;
+    background: #FFFFFF;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.06)
+}
+
+/* .css-z7uhs0-MuiStepConnector-line {
+    display: block;
+   
+    border-top-style: solid;
+    border-top-width: 3px  !important;
+      
+} */
+.StepperDisplay {
+    height: 570px;
+    max-height: 570px;
+    display: grid;
+    justify-items: center;
+    height: 538px;
+    max-height: 538px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+[dir="rtl"] .ArrowEN {
+    transform: scaleX(-1);
+}
+
+
+
+.step {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid #E9E9EF;
+    border-radius: 162.5px;
+
+}
+
+.circle_steps {
+    width: 9px;
+    height: 22px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: right;
+    color: #5D5C63;
+
+}
+
+.step_completed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 40px;
+    height: 40px;
+
+    background: #583DFF;
+    border-radius: 162.5px;
+
+}
+
+.circle_steps_completed {
+    left: 17.35%;
+    right: 15.28%;
+    top: 23.06%;
+    bottom: 19.04%;
+
+    /* background-image: url(../../images/check.png); */
+    border: 1.5px solid #FFFFFF;
+
+}
+
+
+
+.step_active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 40px;
+    height: 40px;
+
+    border: 1.5px solid #583DFF;
+    border-radius: 162.5px;
+}
+
+.step_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    gap: 10px;
+    width: 83.75px;
+    height: 1.5px;
+
+    background: #E9E9EF;
+
+}
+
+.step_line_active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    gap: 10px;
+
+    width: 83.75px;
+    height: 1.5px;
+
+    background: linear-gradient(90deg, #E9E9EF 50%, #583DFF 50%);
+
+}
+
+.step_line_completed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    gap: 10px;
+
+    width: 83.75px;
+    height: 1.5px;
+
+    background: #583DFF;
+
+}
+
+.step_line_info_active {
+    width: 27.88px;
+    height: 1.5px;
+
+    background: #E9E9EF;
+}
+
+
+[dir="rtl"] .step_line_active {
+    background: linear-gradient(90deg, #583DFF 50%, #E9E9EF 50%);
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+    /* .css-m5vj9m-MuiStepper-root {
+        margin-bottom: 0px;
+        margin-inline-end: 145px;
+    } */
+.stepper{
+    justify-content: center
+}
+
+
+    .MuiStepper {
+        margin-bottom: 0px;
+        /* margin: 0 auto;
+        padding: 0; */
+      
+    }
+
+    .nextAndBackBtn {
+     
+        box-shadow: none;
+        width: 100%;
+        margin: 0;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        /* justify-items: baseline; */
+    }
+
+    .StepperDisplay {
+        height: 454px !important;
+        /* margin-top: 0 !important; */
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center;
+    }
+
+
+}
+
+@media only screen and (max-width: 650px) {
+
+    /* .MuiBox-root .css-1174ww2{
+        width: 491px;
+    } */
+    
+    .step_line{
+        width: 73px;
+    }
+    .step_line_active{
+        width: 73px;
+    }
+    .step_line_completed{
+        width: 73px;
+    }
+    .css-m5vj9m-MuiStepper-root {
+        margin: auto;
+    }
+
+    .MuiStepper {
+     
+        /* margin-inline-end: 50px; */
+        justify-content: center;
+    }
+
+    /* .MuiBox-root .css-1174ww2 {
+        width: 90%;
+    } */
+
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .MuiBox-root .css-1174ww2 {
+        width: 100%;
+    }
+
+    .nextAndBackBtn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 18px;
+        width: 100%;
+        background: none;
+        /* min-width: 336px; */
+        height: 62px;
+
+
+    }
+
+    .MuiButton-root{
+        margin: 0px  ;
+    }
+
+    .stepper {
+        /* min-width: 350px; */
+        height: 80px;
+
+        background: #FFFFFF;
+
+    }
+
+    .circle_steps{
+        width: 6px;
+height: 14px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 9.69995px;
+line-height: 14px;
+text-align: right;
+
+color: #4A4951;
+
+    }
+
+    .step {
+        width: 25.87px;
+        height: 25.87px;
+    }
+
+    .step_completed {
+        width: 25.87px;
+        height: 25.87px;
+    }
+
+    .step_active {
+        width: 25.87px;
+        height: 25.87px;
+    }
+
+    .step_line {
+        width: 10px;
+    }
+
+    .step_line_active {
+        width: 10px;
+    }
+
+    .step_line_completed {
+        width: 10px;
+    }
+
+
+    .stepper::before {
+        content: "";
+        background-image: url("../../images/pogo.png");
+        /* position: absolute; */
+        width: 124px;
+        height: 37.86px;
+        background-size: cover;
+        margin-left: 50px;
+
+    }
+
+    [dir='rtl'] .stepper::before {
+
+        margin-left: 0px;
+        margin-right: 50px;
+
+    }
+
+
+    .MultiSteps {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* padding: 0px; */
+        width: 100%;
+        position: relative;
+        /* min-width: 350px; */
+        height: 821px;
+        max-height: 821px;
+        background: #FFFFFF;
+    }
+
+
+    .MultiSteps::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 0px;
+        left: 0px;
+        top: 50px;
+
+        border: 1px solid #E1E1E8;
+    }
+
+    .StepperDisplay {
+        width: 100%;
+        height: 741px !important;
+        background: #FFFFFF;
+        max-height: 741px !important;
+    }
+}

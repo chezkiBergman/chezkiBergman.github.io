@@ -1,0 +1,36 @@
+.footerLogo{
+    display: flex;
+    justify-content: center;
+}
+.footerDelivers{ text-decoration: none;
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 12.77px;
+line-height: 19px;
+text-align: right;
+color: #583DFF;
+margin-top: 18px;
+ margin-right: 10px
+}
+
+
+@media only screen and (max-width: 500px) {
+.footer_logo_pogo{
+    width: 183.39px;
+    height: 56px;
+
+}
+.footerDelivers{
+    margin: 0;
+line-height: 0px;
+
+}
+.footerLogo{
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    align-items: center;
+
+}
+}

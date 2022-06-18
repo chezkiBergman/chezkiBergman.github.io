@@ -1,0 +1,45 @@
+.back-to-top {
+  width: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 30px;
+  background: #583DFF;
+  color: white;
+  cursor: pointer;
+  border-radius: 100px;
+  border: none;
+  box-shadow: 0 5px 10px #ccc;
+}
+
+.widthContainer {
+
+  padding: 0 !important;
+}
+
+/* .container{
+  padding: 0;
+} */
+#root {
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+  .back-to-top {
+    width: 30px;
+
+    font-size: 20px;
+
+  }
+
+  .widthContainer {
+
+    padding: 0px !important;
+    /* height: 3680px; */
+    width: 100%;
+    max-width: 100%;
+    background: #FFFFFF;
+    /* min-width: 354px; */
+  }
+
+}

@@ -1,0 +1,142 @@
+
+
+{
+    "HEADER_LOGO": "מאגר שליחים לרשותך",
+    "HEADER_LINE_1": "POGO שליחי",
+    
+    "HEADER_LINE_2": ".כאן לשליחותך",
+    "HEADER_LINE_3": "אתם מעדכנים את פרטי השליחות ואנחנו משדכים לכם שליח Pogo שיקח את זה מכאן (השידוך מצידנו לגמרי בחינם, מזל טוב!).",
+    
+    "DETAILS_OF_PACKAGE_LINE_1":"...בואו נתחיל",
+    "DETAILS_OF_PACKAGE_LINE_2": "טקסט קצר על מה קורה מפה",
+    "DETAILS_OF_PACKAGE_INPUT_ADDRESS": "מאיפה לאסוף את החבילה",
+    "DETAILS_OF_PACKAGE_INPUT_ADDRESS_PLACEHOLDER": "הקלידו כתובת לאיסוף",
+    "DETAILS_OF_PACKAGE_INPUT_DATE": "תאריך ושעת איסוף",
+    "DETAILS_OF_PACKAGE_INPUT_DATE_PLACEHOLDER": "בחרו תאריך ושעה",
+    "DETAILS_OF_PACKAGE_DDLINE": "דד-ליין למסירה",
+    "DETAILS_OF_PACKAGE_CONTINUE": "המשך",
+    "DETAILS_OF_PACKAGE_ERROR": "עליך למלאות את כל השדות",
+    "BACKTODETAILS_BTN_START":"קליק ומתחילים",
+
+
+
+   
+
+    "ABOUT_HEADER": "Create screens directly in Method or add your images from Sketch or Figma. You can even sync designs from your cloud storage!",
+    "ABOUT_HEADER_BOLD_lINE_1":"אנחנו מפרגנים לנהגים שלנו",
+    "ABOUT_HEADER_BOLD_lINE_2": ".עבודה ואתם נהנים מזה",
+    "ABOUT_HEADER_BOLD_lINE_MOBILE_1":"אנחנו מפרגנים לנהגים",
+    "ABOUT_HEADER_BOLD_lINE_MOBILE_2": ".שלנו ואתם נהנים מזה",
+    "ABOUT_ICON_1": "מאגר שליחים איכותי",
+    "ABOUT_ICON_2": "מהירות מפתיעה",
+    "ABOUT_ICON_3": "זמינות גבוהה",
+    "ABOUT_ICON_1_TEXT": "מאגר שליחים איכותי",
+    "ABOUT_ICON_2_TEXT": "מהירות מפתיעה",
+    "ABOUT_ICON_3_TEXT": "זמינות גבוהה",
+  
+    "CUSTOMERS_RECOMMEND_HEADER_LINE_1":"לקוחות ממליצים",
+    "CUSTOMERS_RECOMMEND_HEADER_LINE_2":"ת'כלס עפים עלינו",
+    "CUSTOMERS_RECOMMEND_POST_1":"אין עליכם, תוך כמה דקות מצאתי שליח. אתם עושים מהפכה בעולם השליחויות",
+    "CUSTOMERS_RECOMMEND_POST_2":"אין ספק שאמליץ לכולם להשתמש בשירותים שלכם, יחסוך המון זמן",
+    "CUSTOMERS_RECOMMEND_USERNAME_1":"משה מושקוביץ",
+    "CUSTOMERS_RECOMMEND_USERNAME_2":"מאיר לוי",
+
+
+    "STEPS_NUM_HEADER_LINE_1": "כותרת מעניינת על הסטפ...",
+    "STEPS_NUM_HEADER_LINE_2": "טקסט קצר על מה קורה מפה ",
+    "STEPS_ADD_STATION": "הוספת תחנה +",
+    "STEPS_ADDRESS_DELIVERY": "כתובת מסירה",
+    "STEPS_ADDRESS_DELIVERY_INPUT_PLACEHOLDER":"הקלידו כתובת למסירה",
+
+
+
+    
+    "STEPS_NUM_1_HEADER_LINE_1": "לאן תרצו שהחבילות יגיעו",
+    "STEPS_NUM_1_HEADER_LINE_2": "תחנות נוספו",
+    "ADD_DETAILS_LINK":"הוספת פרטים",
+    "ADD_DETAILS_EDIT":"עריכת פרטים",
+    "ADD_DETAILS_WINDOW":"פרטים נוספים",
+    "ADD_DETAILS_WINDOW_INPUT_NAME":"שם לקוח",
+    "ADD_DETAILS_WINDOW_INPUT_PHONE": "טלפון איש קשר",
+    "ADD_DETAILS_WINDOW_INPUT_PRICE": "מחיר עבור תחנה",
+    "ADD_DETAILS_WINDOW_INPUT_REMARKS": "הערות",
+    "ADD_DETAILS_WINDOW_BTN_CONFIRM": "אישור",
+    "ADD_DETAILS_WINDOW_BTN_CANCEL": "ביטול",
+    "STEPS_NEXT": "הבא", 
+
+    "DELETE_STATION_MOBILE":"מחיקת תחנה",
+    
+    "POPUP_UPLOAD_FILE_HEADER":"העלאת קובץ",
+    "POPUP_UPLOAD_FILE_INPUT":"בחר קובץ מהמחשב שלך",
+    "POPUP_UPLOAD_FILE_LABEL_INPUT":"נא להעלות קובץ בפורמט csv, xlsx עד 5 MB.",
+    "POPUP_UPLOAD_FILE_HEADER_VIDEO":"איך להעלות קובץ נכון?",
+    "POPUP_UPLOAD_FILE_BTN":"פתיחה",
+
+    "STEPS_NUM_2_TYPE_PACKAGE_HEADER_LINE_1": "מה מתאים למשלוח שלך",
+    "STEPS_NUM_2_TYPE_PACKAGE_HEADER_LINE_2": "תוכלו לבחור יותר מאפשרות אחת",
+    "STEPS_NUM_2_TYPE_PACKAGE_SELECT_1": "אופנוע",
+    "STEPS_NUM_2_TYPE_PACKAGE_SELECT_2": "רכב",
+    "STEPS_NUM_2_TYPE_PACKAGE_SELECT_3": "משאית",
+
+    "ERROR_ALERT_SET_DATA":"אירעה שגיאה, הינך מועבר להתחלת התהליך",
+    "MSG_LOADING":"...כבר מסיימים",
+
+    "STEPS_NUM_3_HEADER_LINE_1": "כמה תשלם על זה",
+    "STEPS_NUM_3_HEADER_LINE_2": "מרגיש לנו שככל שתציע יותר, יעלו הסיכויים לקבל שליח מהר (כן, ומהיר...)",
+    "STEPS_NUM_3_HEADER_LINE_3": "מחיר עבור השילוח",
+    "STEPS_NUM_3_HEADER_LINE_4": "מחיר מינימום",
+    "STEPS_NUM_3_HEADER_LINE_5": "ההצעה שלך משתפרת",
+    "STEPS_NUM_3_HEADER_LINE_6": "אוקיי, השליחים פה מתעוררים",
+ 
+   
+    "STEPS_NUM_3_LINE_5":"זמן",
+    "STEPS_NUM_3_LINE_6":"מרחק",
+    "STEPS_NUM_3_LINE_7":"מס' תחנות",
+
+    "STEPS_NUM_4_ABOUT_YOU_HEADER_LINE_1": "קצת עליכם...",
+    "STEPS_NUM_4_ABOUT_YOU_HEADER_LINE_2": "טקסט קצר",
+    "STEPS_NUM_4_ABOUT_YOU_INPUT_NAME":"שם מלא",
+    "STEPS_NUM_4_ABOUT_YOU_INPUT_NAME_VALIDPHON":"מספר לא תקני",
+    "STEPS_NUM_4_ABOUT_YOU_INPUT_PHONE":"טלפון",
+    "STEPS_NUM_4_ABOUT_YOU_BTN":"סיכום",
+
+    "STEPS_NUM_4_VALIDATION_HEADER_LINE_1": "...רק מאמתים את הטלפון שלך",
+    "STEPS_NUM_4_SENT_PHONE": "שלחנו קוד חד פעמי לנייד",
+    "STEPS_NUM_4_ISN'T_MYNUM": "זה לא המספר שלי",
+    "STEPS_NUM_4_DIDN'T_RECEIVE": "לא קיבלתי קוד",
+    "STEPS_NUM_4_WHICH_CODE_RECEIVE": "מה הקוד שקיבלת",
+
+
+    "SUMMARY_HEADER_LINE_1":"סיכום שילוח",
+    "SUMMARY_HEADER_LINE_2":"טקסט קצר",
+
+    "SUMMARY_INPUT_1":"תחנת איסוף",
+    "SUMMARY_INPUT_2":"תאריך איסוף",
+    "SUMMARY_INPUT_3":"תאריך דדליין למסירה",
+    "SUMMARY_INPUT_4":"תחנות מסירה",
+    "SUMMARY_INPUT_5": "שילוח עי",
+    "SUMMARY_INPUT_6": "מחיר כולל",
+    "SUMMARY_INPUT_7": "פרטים אישיים",
+    "SUMMARY_BTN": "אישור",
+
+
+    "TRACKING_SHIPMENT_HEADER_1":"צור מסלול חדש",
+    "TRACKING_SHIPMENT_HEADER_2":"עקוב אחרי השילוח שלך",
+    "TRACKING_SHIPMENT_SELECT_1":"קיבלנו את בקשת המשלוח שלך",
+    "TRACKING_SHIPMENT_SELECT_2":"המסלול שלך מופץ לשליחים שלנו",
+    "TRACKING_SHIPMENT_SELECT_3":"!מצאנו את האחד",
+    "TRACKING_SHIPMENT_SELECT_4":"המשלוח יצא לדרך",
+    "TRACKING_SHIPMENT_UPDATE":"עדכן תחנות",
+    "TRACKING_SHIPMENT_CANCEL":"ביטול שילוח",
+    "TRACKING_SHIPMENT_DELIVERY_CANCEL":"...באסה השליח ביטל, אבל היי אנחנו כבר מארגנים לך שליח אחר",
+    "TRACKING_SHIPMENT_YOUR_DRIVER":"השליח שלך",
+    "TRACKING_SHIPMENT_CHANGE_DRIVER":"החלף שליח",
+    "TRACKING_SHIPMENT_CANCEL_ALERT": " השליחות בוטלה בהצלחה. הינך מועבר להתחלת שליחות חדשה בעוד 3 שניות",
+  
+    "ERROR_MESSAGE_AUTOCOMPLET":"הכנס כתובת מסירה",
+    "ERROR_MESSAGE_DATE_TIME_1":"תאריך ושעה לא תקניים",
+    "ERROR_MESSAGE_DATE_TIME_2":"נא הכנס תאריך ושעה"
+
+}
+
+

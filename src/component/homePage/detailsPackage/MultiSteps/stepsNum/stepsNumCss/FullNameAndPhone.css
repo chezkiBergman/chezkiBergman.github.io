@@ -1,0 +1,14 @@
+@media only screen and (max-width: 500px) {
+    .litleAboutTextField{
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 650px) {
+    .flex_header_nameAndPhone{
+        display: flex;
+        flex-direction: column;
+     align-items: center;
+    }
+
+}

@@ -1,0 +1,139 @@
+{
+    "HEADER_LOGO": "Your courier database",
+    "HEADER_LINE_1": "Lorem POGO",
+    "HEADER_LINE_2": ".here for you",
+    "HEADER_LINE_3": "You write down the details of the mission, we match you with a courier Pogo .(the match on our end is free, congratulations!)",
+    "HEADER_LINE_4":  "",
+
+    "DETAILS_OF_PACKAGE_LINE_1":"...Lat's get started",
+    "DETAILS_OF_PACKAGE_LINE_2": "",
+    "DETAILS_OF_PACKAGE_INPUT_ADDRESS": "Where the package?",
+    "DETAILS_OF_PACKAGE_INPUT_ADDRESS_PLACEHOLDER": "Type the collection address",
+    "DETAILS_OF_PACKAGE_INPUT_DATE": "Date and time of pick up",
+    "DETAILS_OF_PACKAGE_INPUT_DATE_PLACEHOLDER": "Pick a date and time",
+    "DETAILS_OF_PACKAGE_DDLINE": "Deadline for delivering",
+    "DETAILS_OF_PACKAGE_CONTINUE": "Next",
+    "DETAILS_OF_PACKAGE_ERROR": "You must fill in all the fields",
+
+    "BACKTODETAILS_BTN_START": "Click and start",
+
+    "ABOUT_HEADER": "Create screens directly in Method or add your images from Sketch or Figma. You can even sync designs from your cloud storage!",
+    "ABOUT_HEADER_BOLD_lINE_1":"Our drivers have a job",
+    "ABOUT_HEADER_BOLD_lINE_MOBILE_1": "Our drivers have a job",
+    "ABOUT_HEADER_BOLD_lINE_MOBILE_2": ".and you... enjoy it",
+    "ABOUT_HEADER_BOLD_lINE_2": ".and you... enjoy it",
+    
+    "ABOUT_ICON_1": "Quality courier database",
+    "ABOUT_ICON_2": "Astonishing speed!",
+    "ABOUT_ICON_3": "High availability",
+    "ABOUT_ICON_1_TEXT": "Quality courier database",
+    "ABOUT_ICON_2_TEXT":"Astonishing speed!",
+    "ABOUT_ICON_3_TEXT": "High availability",
+
+    "CUSTOMERS_RECOMMEND_HEADER_LINE_1":"Our customers recommend",
+    "CUSTOMERS_RECOMMEND_HEADER_LINE_2":"They're into us",
+    "CUSTOMERS_RECOMMEND_POST_1":"Thank you, in a few minutes I found a courier. You are revolutionizing the world of errands",
+    "CUSTOMERS_RECOMMEND_POST_2":"I will definitely recommend everyone to use your services, it will save a lot of time",
+    "CUSTOMERS_RECOMMEND_USERNAME_1":"David levi",
+    "CUSTOMERS_RECOMMEND_USERNAME_2":"Natan shoam",
+
+
+    "STEPS_NUM_HEADER_LINE_1": "An interesting title of the step...",
+    "STEPS_NUM_HEADER_LINE_2": "Delivery stations",
+    "STEPS_ADD_STATION": "+ Add point",
+    "STEPS_ADDRESS_DELIVERY": "Delivery address",
+    "STEPS_ADDRESS_DELIVERY_INPUT_PLACEHOLDER":"Type the collection address",
+
+
+    "ERROR_ALERT_SET_DATA":"An error has occurred. You are transferred to the beginning of the process",
+    "STEPS_NUM_1_HEADER_LINE_1": "Where do you want the packages deliverd",
+    "STEPS_NUM_1_HEADER_LINE_2": "stations added.",
+    "ADD_DETAILS_LINK":"Add details",
+    "ADD_DETAILS_EDIT":"Edit details",
+    "ADD_DETAILS_WINDOW":"More details",
+    "ADD_DETAILS_WINDOW_INPUT_PHONE": "Contact phone",
+    "ADD_DETAILS_WINDOW_INPUT_NAME":"costumer name",
+    "ADD_DETAILS_WINDOW_INPUT_PRICE": "Price for station",
+    "ADD_DETAILS_WINDOW_INPUT_REMARKS": "Remarks",
+    "ADD_DETAILS_WINDOW_BTN_CONFIRM": "Confirm",
+    "ADD_DETAILS_WINDOW_BTN_CANCEL": "Cancel",
+    "STEPS_NEXT": "Next", 
+
+    "DELETE_STATION_MOBILE":"Deleting a station",
+
+    "POPUP_UPLOAD_FILE_HEADER":"File uploading",
+    "POPUP_UPLOAD_FILE_INPUT":"Select a file from your computer",
+    "POPUP_UPLOAD_FILE_LABEL_INPUT":"Please upload a file in csv, xlsx format up to 5 MB",
+    "POPUP_UPLOAD_FILE_HEADER_VIDEO":"How to upload a file correctly",
+    "POPUP_UPLOAD_FILE_BTN":"open",
+    
+    "STEPS_NUM_2_TYPE_PACKAGE_HEADER_LINE_1": "What is suitable for your shipment",
+    "STEPS_NUM_2_TYPE_PACKAGE_HEADER_LINE_2": "You can choose from more then one option ",
+    "STEPS_NUM_2_TYPE_PACKAGE_SELECT_1": "Motorcycle",
+    "STEPS_NUM_2_TYPE_PACKAGE_SELECT_2": "Car",
+    "STEPS_NUM_2_TYPE_PACKAGE_SELECT_3": "Truck",
+
+    "MSG_LOADING":"Already done",
+
+
+
+    "STEPS_NUM_3_HEADER_LINE_1": "How much will you pay?",
+    "STEPS_NUM_3_HEADER_LINE_2": "The more you bid, the higher the chance of getting a courier fast (yes, fast...).",
+    "STEPS_NUM_3_HEADER_LINE_3": "Shipping cost",
+    "STEPS_NUM_3_HEADER_LINE_6": "Okay, The Couriers Are Waking Up...",
+    "STEPS_NUM_3_HEADER_LINE_4": "minimum price",
+    "STEPS_NUM_3_HEADER_LINE_5": "Your offer is getting better",
+    "STEPS_NUM_3_LINE_5":"time",
+    "STEPS_NUM_3_LINE_6":"distance",
+    "STEPS_NUM_3_LINE_7":"stations",
+
+
+
+    "STEPS_NUM_4_ABOUT_YOU_HEADER_LINE_1": "A little about you...",
+    "STEPS_NUM_4_ABOUT_YOU_HEADER_LINE_2": "Lorem ipsum",
+    "STEPS_NUM_4_ABOUT_YOU_INPUT_NAME":"Full name",
+    "STEPS_NUM_4_ABOUT_YOU_INPUT_PHONE":"Phone",
+    "STEPS_NUM_4_ABOUT_YOU_BTN":"Summary",
+    
+
+    "STEPS_NUM_4_VALIDATION_HEADER_LINE_1": "Just verifying your phone...",
+    "STEPS_NUM_4_SENT_PHONE": "We sent a one-time mobile code",
+    "STEPS_NUM_4_ISN'T_MYNUM": "This is noy my phone number",
+    "STEPS_NUM_4_DIDN'T_RECEIVE": "i did not receive a code?",
+    "STEPS_NUM_4_WHICH_CODE_RECEIVE": "What code did you get?",
+
+
+
+    "SUMMARY_HEADER_LINE_1":"Shipping summary",
+    "SUMMARY_HEADER_LINE_2":"Lorem ipsum",
+    "SUMMARY_INPUT_1":"Pick-up point",
+    "SUMMARY_INPUT_2":"Pick-up time",
+    "SUMMARY_INPUT_3":"Deadline for delivery",
+    "SUMMARY_INPUT_4":"Delivery points ",
+    "SUMMARY_INPUT_5": "Shipping by",
+    "SUMMARY_INPUT_6": "Total price",
+    "SUMMARY_INPUT_7": "Personal details",
+    "SUMMARY_BTN": "Approve",
+
+
+  "TRACKING_SHIPMENT_HEADER_1":"Create a new track",
+  "TRACKING_SHIPMENT_HEADER_2":"Track Your shpment",
+  "TRACKING_SHIPMENT_SELECT_1":"We have received your request for delivery",
+  "TRACKING_SHIPMENT_SELECT_2":"Your route is distributed to our couriers",
+  "TRACKING_SHIPMENT_SELECT_3":"We found the one",
+  "TRACKING_SHIPMENT_SELECT_4":"The shipment set off",
+  "TRACKING_SHIPMENT_UPDATE":"Update stations",
+  "TRACKING_SHIPMENT_CANCEL":"Cancel delivery",
+  "TRACKING_SHIPMENT_DELIVERY_CANCEL":"Oh. The courier has canceled, but hey we're already arraging for you another courier...",
+  "TRACKING_SHIPMENT_YOUR_DRIVER":"Your courier",
+  "TRACKING_SHIPMENT_CHANGE_DRIVER":"Replace courier",
+  "TRACKING_SHIPMENT_CANCEL_ALERT": "Sending successfully canceled. You are redirected to start a new mission in 3 seconds",
+
+
+  "ERROR_MESSAGE_AUTOCOMPLET":"Enter delivery address",  
+  "ERROR_MESSAGE_DATE_TIME_1": "Non-standard date and time",
+  "ERROR_MESSAGE_DATE_TIME_2":"Enter date and time"
+ 
+
+
+}

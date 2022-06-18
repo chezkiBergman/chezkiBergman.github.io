@@ -1,0 +1,266 @@
+.customersHeadLin1 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #18214D;
+    text-align: center;
+}
+
+.customersHeadLin2 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 62px;
+    color: #18214D;
+}
+
+
+.posts {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 35px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.under_userName {
+    width: 177.14px;
+    height: 20px;
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    margin-right: 5px;
+    text-align: right;
+    letter-spacing: -0.4px;
+
+    color: #FFFFFF;
+}
+
+.rating {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 43px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.post_p {
+    text-align: right;
+    margin-right: 49px;
+    color: #FFFFFF;
+    white-space: break-spaces;
+
+}
+
+[dir="rtl"] .post_p {
+    text-align: end;
+    margin-inline: 30px;
+}
+
+
+
+.post {
+    position: relative;
+    background: #1A1D30;
+    border-radius: 22px;
+    width: 50%;
+    max-width: 575px;
+    Height: 300px;
+    margin-left: 5px;
+    padding-left: 67px;
+}
+
+
+.divHeader_customers {
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .startIllustration {
+        display: none
+    }
+
+}
+
+@media only screen and (max-width: 750px) {}
+
+@media only screen and (min-width: 600px) {
+    [dir='rtl'] .iconUser {
+        position: relative;
+        top: 0;
+        /* right: -18px; */
+    }
+
+    [dir="rtl"] .post_p {
+
+        margin-inline: 0px !important;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+    .post {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 40px 30px 40px 46px;
+        width: 95%;
+        background: #1A1D30;
+        border-radius: 22px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 24px 0px;
+    }
+
+    .posts {
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .iconUser {
+        position: initial !important;
+    }
+
+    [dir='rtl'] .iconUser {
+        position: relative !important;
+        top: 0;
+        /* right: -18px; */
+    }
+
+
+
+    .rating {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+
+    [dir="rtl"] .post_p {
+
+        margin-inline: 0px;
+    }
+
+
+
+
+}
+
+
+
+
+.iconUser {
+    /* margin-top: 50px; */
+    text-align-last: end;
+    margin-right: 35px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 200px;
+    right: 0;
+
+}
+
+
+
+[dir='rtl'] .iconUser {
+    position: relative;
+}
+
+@media only screen and (max-width: 500px) {
+    .section_customers {
+        /* min-width: 354px; */
+
+        height: 1061px;
+    }
+
+
+    .divHeader_customers {
+        padding: 0rem 1rem;
+    }
+
+    .mobile_width_customers {
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        height: 850px;
+
+
+    }
+
+
+
+
+    .customersHeadLin1 {
+        /* width: 133px; */
+        height: 30px;
+
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height, or 150% */
+
+        text-align: end;
+        letter-spacing: -0.55px;
+
+        color: #0D152E;
+
+    }
+
+    .customersHeadLin2 {
+        width: 228px;
+        height: 37px;
+
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 37px;
+        /* identical to box height, or 116% */
+
+        text-align: end;
+        letter-spacing: -1.24px;
+
+        color: #0D152E;
+
+    }
+
+    .posts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+        width: 100%;
+        height: 732px;
+    }
+
+    .post {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 40px 0px 40px 46px;
+        gap: 27px;
+
+        /* width: 336px; */
+        height: 354px;
+
+        background: #1A1D30;
+        border-radius: 22px;
+    }
+
+}
